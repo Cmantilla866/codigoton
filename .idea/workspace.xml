@@ -5,18 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384e9bd8-e9a0-4231-b613-8b35c3e84657" name="Changes" comment="Finished functionality">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/ClientComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Filters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CenaClientes/controller/CenaControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CenaClientes/databuilder/ClientDataBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CenaClientes/databuilder/FiltersDataBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CenaClientes/databuilder/TableDataBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CenaClientes/repository/ClientRepositoryCustomImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CenaClientes/service/CenaServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/CenaClientesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/CenaClientesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/ClientComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/ClientComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Filters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Filters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/controller/CenaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/controller/CenaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/feignClient/DecryptFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/feignClient/DecryptFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/CenaClientesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/CenaClientesApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/classes/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/classes/Table.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/controller/CenaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/controller/CenaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/entities/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/entities/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaServiceImpl.class" afterDir="false" />
@@ -30,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,25 +68,110 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration name="CenaClientesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.CenaClientes.CenaClientesApplication" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.CenaClientes.controller" />
+      <recent name="com.example.CenaClientes.service" />
+      <recent name="com.example.CenaClientes.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.CenaClientes.databuilder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CenaControllerTest.getTables">
+    <configuration name="CenaControllerTest.getTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CenaClientes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.CenaClientes.*" />
+          <option name="PATTERN" value="com.example.CenaClientes.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.CenaClientes.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.CenaClientes.controller.CenaControllerTest" />
+      <option name="METHOD_NAME" value="getTables" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CenaServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CenaClientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.CenaClientes.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.CenaClientes.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.CenaClientes.service.CenaServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CenaServiceImplTest.getTablesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CenaClientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.CenaClientes.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.CenaClientes.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.CenaClientes.service.CenaServiceImplTest" />
+      <option name="METHOD_NAME" value="getTablesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CenaServiceImplTest.runFiltersTestEcryptedCodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CenaClientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.CenaClientes.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.CenaClientes.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.CenaClientes.service.CenaServiceImplTest" />
+      <option name="METHOD_NAME" value="runFiltersTestEcryptedCodes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CenaServiceImplTest.runFiltersTestNotEcryptedCodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CenaClientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.CenaClientes.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.CenaClientes.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.CenaClientes.service.CenaServiceImplTest" />
+      <option name="METHOD_NAME" value="runFiltersTestNotEcryptedCodes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CenaClientesApplication" />
+        <item itemvalue="JUnit.CenaControllerTest.getTables" />
+        <item itemvalue="JUnit.CenaServiceImplTest" />
+        <item itemvalue="JUnit.CenaServiceImplTest.getTablesTest" />
+        <item itemvalue="JUnit.CenaServiceImplTest.runFiltersTestNotEcryptedCodes" />
+        <item itemvalue="JUnit.CenaServiceImplTest.runFiltersTestEcryptedCodes" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635078364967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished functionality">
+      <created>1635089922710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635089922710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +217,17 @@
     <MESSAGE value="Filters" />
     <MESSAGE value="Finished functionality" />
     <option name="LAST_COMMIT_MESSAGE" value="Finished functionality" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tests" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CenaClientes$CenaServiceImplTest.ic" NAME="CenaServiceImplTest Coverage Results" MODIFIED="1635109245035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.CenaClientes.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

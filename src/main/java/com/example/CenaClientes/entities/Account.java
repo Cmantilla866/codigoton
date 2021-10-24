@@ -5,6 +5,9 @@ import lombok.Data;
 
 import javax.persistence.*;
 
+/**
+ * Account entity
+ * */
 @Entity
 @Table(name = "account")
 @Data

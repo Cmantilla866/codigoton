@@ -11,6 +11,9 @@ import javax.persistence.criteria.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Custom Repository for the Client class for making dynamic queries
+ * */
 @Repository
 @Transactional(readOnly = true)
 public class ClientRepositoryCustomImpl implements  ClientRepositoryCustom{
@@ -19,6 +22,10 @@ public class ClientRepositoryCustomImpl implements  ClientRepositoryCustom{
     private EntityManager entityManager;
 
 
+    /**
+     * Method that consults the clients by the filters
+     * @return A list of clients that meet the criteria
+     * */
     @Override
     public List<Client> findClientByCriteria(Filters filters) {
 
@@ -36,17 +43,17 @@ public class ClientRepositoryCustomImpl implements  ClientRepositoryCustom{
         Path<Integer> idPath = clientRoot.get("id");
 
         List<Predicate> predicates = new ArrayList<>();
-        if (filters.getTC() != null){
-            predicates.add(cb.equal(typePath, filters.getTC()));
+        if (filters.getTc() != null){
+            predicates.add(cb.equal(typePath, filters.getTc()));
         }
-        if (filters.getUG() != null){
-            predicates.add(cb.equal(locationPath, filters.getUG()));
+        if (filters.getUg() != null){
+            predicates.add(cb.equal(locationPath, filters.getUg()));
         }
-        if (filters.getRI() != null){
-            predicates.add(cb.greaterThan(totalBalancePath, filters.getRI()));
+        if (filters.getRi() != null){
+            predicates.add(cb.greaterThan(totalBalancePath, filters.getRi()));
         }
-        if (filters.getRF() != null){
-            predicates.add(cb.lessThan(totalBalancePath, filters.getRF()));
+        if (filters.getRf() != null){
+            predicates.add(cb.lessThan(totalBalancePath, filters.getRf()));
         }
         predicates.add(cb.equal(malePath, filters.getMale()));
         for (Client client : filters.getUsedClients()){
