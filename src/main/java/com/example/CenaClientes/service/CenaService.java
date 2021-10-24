@@ -7,12 +7,13 @@ import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.List;
 
 public interface CenaService {
 
-    public List<Table> getTables(MultipartFile multipartFile) throws IOException;
+    public String getTables(MultipartFile multipartFile) throws IOException;
 
     public List<Client> listAllClients();
 

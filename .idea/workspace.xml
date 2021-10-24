@@ -4,13 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="384e9bd8-e9a0-4231-b613-8b35c3e84657" name="Changes" comment="" />
+    <list default="true" id="384e9bd8-e9a0-4231-b613-8b35c3e84657" name="Changes" comment="Finished functionality">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/ClientComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Filters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/classes/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/controller/CenaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/controller/CenaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CenaClientes/service/CenaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/classes/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/classes/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/controller/CenaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/controller/CenaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/repository/ClientRepositoryCustomImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CenaClientes/service/CenaServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1zvU85jleMLpoRnE36pB30oWb8s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,6 +81,31 @@
       <option name="presentableId" value="Default" />
       <updated>1635027893490</updated>
     </task>
+    <task id="LOCAL-00001" summary="Filters">
+      <created>1635078364967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635078364967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Filters" />
+    <MESSAGE value="Finished functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished functionality" />
   </component>
 </project>

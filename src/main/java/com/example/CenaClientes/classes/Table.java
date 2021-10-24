@@ -1,5 +1,6 @@
 package com.example.CenaClientes.classes;
 
+import com.example.CenaClientes.entities.Client;
 import lombok.Data;
 
 import java.util.List;
@@ -8,6 +9,6 @@ import java.util.List;
 public class Table {
 
     String tableName;
-    List<String> filters;
+    List<Client> clients;
 
 }
